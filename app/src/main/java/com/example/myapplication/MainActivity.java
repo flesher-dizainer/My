@@ -5,17 +5,22 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.bluetooth.BluetoothAdapter;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.example.myapplication.adapter.btConst;
 
 public class MainActivity extends AppCompatActivity {
 
     private MenuItem menuItem;
     private BluetoothAdapter btAdapter;
     private final int ENABLE_REQUEST = 15;
+    private SharedPreferences pref;
 
 
     @Override//создание формы
@@ -39,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == R.id.id_bt_button ){//проверка нажатия кнопки включения/отключения блютуз
             if(!btAdapter.isEnabled()){
                 enableBt();
-                setBtIcon();
+
             }else{
                 btAdapter.disable();
                 menuItem.setIcon(R.drawable.ic_bt_enable);
@@ -63,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == ENABLE_REQUEST){
             if(resultCode == RESULT_OK){
+                setBtIcon();
 
 
             }
@@ -82,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){//создаётся экземпляр адаптера
         btAdapter = BluetoothAdapter.getDefaultAdapter();
+        pref = getSharedPreferences(btConst.MY_PREF, Context.MODE_PRIVATE);
+
     }
 
     private void enableBt(){//включение адаптера
