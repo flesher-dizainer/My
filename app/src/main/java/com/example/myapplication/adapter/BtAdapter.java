@@ -65,7 +65,7 @@ public class BtAdapter extends ArrayAdapter<ListItem> {
         return convertView;
     }
 
-    private void savePref(int pos){
+    private void savePref(int pos){//сохранение МАС адреса в память
 
         SharedPreferences.Editor editor = pref.edit();
         editor.putString(btConst.MAC_KEY,mainList.get(pos).getBtMac());

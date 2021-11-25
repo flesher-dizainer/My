@@ -17,12 +17,14 @@ import com.example.myapplication.adapter.ListItem;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.UUID;
 
 public class BtListActivity extends AppCompatActivity {
     private ListView listView;
     private BtAdapter adapter;
     private BluetoothAdapter btAdapter;
     private List<ListItem> list;
+    private String uniqueID;//уникальный id для сокета
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +43,7 @@ public class BtListActivity extends AppCompatActivity {
     }
     private void init(){
         btAdapter = BluetoothAdapter.getDefaultAdapter();
+        uniqueID = UUID.randomUUID().toString();
         list = new ArrayList<>();
         ActionBar ab = getSupportActionBar();
         if(ab==null) return;

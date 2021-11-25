@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
+//import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private MenuItem menuItem;
     private BluetoothAdapter btAdapter;
     private final int ENABLE_REQUEST = 15;
-    private SharedPreferences pref;
+    //private SharedPreferences pref;
 
 
     @Override//создание формы
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void init(){//создаётся экземпляр адаптера
         btAdapter = BluetoothAdapter.getDefaultAdapter();
-        pref = getSharedPreferences(btConst.MY_PREF, Context.MODE_PRIVATE);
+        getSharedPreferences(btConst.MY_PREF, Context.MODE_PRIVATE);
 
     }
 
