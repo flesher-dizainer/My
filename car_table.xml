@@ -1,0 +1,33 @@
+<ecus>
+	<HYUNDAI>
+		<solaris_1.6_2020>
+			<Engine>
+			<can_id_01 name = 'can_id_01' SldID = '000007E8' count_data = '02' Data = '000007E02101' ></can_id_01>
+			</Engine>
+		</solaris_1.6_2020>
+		<Tucson_2020>
+		</Tucson_2020>
+	</HYUNDAI>
+	
+	<GEELY>
+		<Atlas_NL3>
+			<AT_Transmission>
+				<Read_Data SldID = '000007E1' count_data = '03' Data = '000007E022FD06' ></Read_Data>
+			</AT_Transmission>
+		</Atlas_NL3>
+	</GEELY>
+	<FORD>
+		<Focus_1.6_100hp>
+			<Engine>
+				<read_param_01 name = 'read_param_01' SldID = '000007E8' count_data = '03' Data = '000007E00101' ></read_param_01>
+			</Engine>
+		</Focus_1.6_100hp>
+	</FORD>
+	<VAZ>
+		<M86>
+			<Engine>
+				<read_param_01 name = 'read_param_01' SldID = '000007E8' count_data = '03' Data = '000007E0220001' ></read_param_01>
+			</Engine>
+		</M86>
+	</VAZ>	
+</ecus>

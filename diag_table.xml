@@ -1,0 +1,116 @@
+<ecus>
+	<solaris_1.6_2020 maker_name="solaris_1.6_2020" system="Engine">
+		<can_id_00 name="can_id_00" Data="000007E86201">
+		</can_id_00>
+		<can_id_01 name="can_id_01">
+			<U_BAT name="U_BAT" number_data="10" mul_h="1" mul_l="0,07" count="1" subb="0"></U_BAT>
+			<U_IGN_KEY name="U_IGN_KEY" number_data="11" mul_h="1" mul_l="0,07" count="1" subb="0"></U_IGN_KEY>
+			<RPM name="RPM" number_data="13" mul_h="64" mul_l="0,25" count="2" subb="0"></RPM>
+			<RPM_XX name="RPM_XX" number_data="15" mul_h="1" mul_l="10" count="1" subb="0"></RPM_XX>
+			<U_MAP name="U_MAP" number_data="17" mul_h="1,25" mul_l="0,0049" count="2" subb="0"></U_MAP>
+			<MAP name="MAP" number_data="19" mul_h="1" mul_l="0,004" count="2" subb="0"></MAP>
+			<TPS name="TPS" number_data="23" mul_h="1" mul_l="0,392" count="1" subb="0"></TPS>
+			<ADAPT_TPS name="ADAPT_TPS" number_data="24" mul_h="0,391" mul_l="0,0016" count="2" subb="0"></ADAPT_TPS>
+			<TWAT name="TWAT" number_data="28" mul_h="1" mul_l="0,75" count="1" subb="48"></TWAT>
+		</can_id_01>
+		<can_id_02 name="can_id_02">
+		</can_id_02>
+	</solaris_1.6_2020>
+	<Creta_2020_1.6 maker_name="Creta_2020_1.6" system="Engine">
+	</Creta_2020_1.6>
+	<Focus_1.6_100hp maker_name="Focus_1.6_100hp" system="Engine">
+		<read_param_01 name="read_param_01">
+			<U_BAT name="U_BAT" number_data="10" mul_h="1" mul_l="0,07" count="1" subb="0"></U_BAT>
+			<U_IGN_KEY name="U_IGN_KEY" number_data="11" mul_h="1" mul_l="0,07" count="1" subb="0"></U_IGN_KEY>
+			<RPM name="RPM" number_data="13" mul_h="64" mul_l="0,25" count="2" subb="0"></RPM>
+			<RPM_XX name="RPM_XX" number_data="15" mul_h="1" mul_l="10" count="1" subb="0"></RPM_XX>
+			<U_MAP name="U_MAP" number_data="17" mul_h="1,25" mul_l="0,0049" count="2" subb="0"></U_MAP>
+			<MAP name="MAP" number_data="19" mul_h="1" mul_l="0,004" count="2" subb="0"></MAP>
+			<TPS name="TPS" number_data="23" mul_h="1" mul_l="0,392" count="1" subb="0"></TPS>
+			<ADAPT_TPS name="ADAPT_TPS" number_data="24" mul_h="0,391" mul_l="0,0016" count="2" subb="0"></ADAPT_TPS>
+			<TWAT name="TWAT" number_data="28" mul_h="1" mul_l="0,75" count="1" subb="48"></TWAT>
+		</read_param_01>
+	</Focus_1.6_100hp>
+	<M86 maker_name="M86" system="Engine">
+		<read_param_01 name="read_param_01" Data="000007E8620001">
+			<UBAT number_data="8" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,1" subb="0" name="UBAT"></UBAT>
+			<TWAT number_data="10" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,75" subb="48" name="TWAT"></TWAT>
+			<FREQ number_data="12" type="0" count="2" number_bit="00" mul_h="64" mul_l="0,25" subb="0" name="FREQ"></FREQ>
+			<VSPEED number_data="13" type="0" count="1" number_bit="00" mul_h="1" mul_l="1,25" subb="0" name="VSPEED"></VSPEED>
+			<UOZ number_data="14" type="1" count="1" number_bit="00" mul_h="1" mul_l="0,75" subb="0" name="UOZ"></UOZ>
+			<INJ number_data="16" type="0" count="2" number_bit="00" mul_h="1,6384" mul_l="0,0064" subb="0" name="INJ"></INJ>
+			<THR number_data="18" type="0" count="2" number_bit="00" mul_h="6,2464" mul_l="0,0244" subb="0" name="THR"></THR>
+			<APP number_data="20" type="0" count="2" number_bit="00" mul_h="0,3906" mul_l="0,0015" subb="0" name="APPS"></APP>
+			<ACHRG_REL number_data="22" type="0" count="2" number_bit="00" mul_h="6" mul_l="0,0234" subb="0" name="ACHRG_REL"></ACHRG_REL>
+			<AIR number_data="24" type="0" count="2" number_bit="00" mul_h="25,6" mul_l="0,1" subb="0" name="AIR_MASS"></AIR>
+			<LAMSBG number_data="25" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,00392" subb="-0,5" name="LAMSBG"></LAMSBG>
+			<O2S1 number_data="26" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,005" subb="0" name="O2S1"></O2S1>
+			<O2S1_CYCLE number_data="27" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="O2S1_CYCLE"></O2S1_CYCLE>
+			<O2S2 number_data="28" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,005" subb="0" name="O2S2"></O2S2>
+			<INJCRR number_data="30" type="0" count="2" number_bit="00" mul_h="0,0078125" mul_l="0,00003" subb="0" name="INJCRR"></INJCRR>
+			<FHO number_data="31" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="FHO"></FHO>
+			<MSLEAK number_data="32" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="MSLEAK"></MSLEAK>
+			<FRA number_data="35" type="0" count="2" number_bit="00" mul_h="0,0078125" mul_l="0,00003" subb="0" name="FRA"></FRA>
+			<DLAHI number_data="36" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="DLAHI"></DLAHI>
+			<AHKAT number_data="37" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="AHKAT"></AHKAT>
+			<VSKS number_data="38" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="VSKS"></VSKS>
+			<IAT number_data="40" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="IAT"></IAT>
+			<PURGE number_data="42" type="0" count="2" number_bit="00" mul_h="0,3906" mul_l="0,0015" subb="0" name="PURGE"></PURGE>
+			<FUCOTE number_data="43" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="FUCOTE"></FUCOTE>
+			<WKR number_data="45" type="1" count="1" number_bit="00" mul_h="1" mul_l="0,75" subb="0" name="WKR"></WKR>
+			<FREQ_XX number_data="46" type="0" count="1" number_bit="00" mul_h="1" mul_l="10" subb="0" name="FREQ_XX"></FREQ_XX>
+			<DMVAD number_data="48" type="0" count="2" number_bit="00" mul_h="0,781" mul_l="0,003" subb="0" name="DMVAD"></DMVAD>
+			<MSNDKO number_data="50" type="0" count="2" number_bit="00" mul_h="25,6" mul_l="0,1" subb="0" name="MSNDKO"></MSNDKO>
+			<DMLLRI number_data="52" type="0" count="2" number_bit="00" mul_h="0,781" mul_l="0,003" subb="0" name="DMLLRI"></DMLLRI>
+			<DMLLR number_data="54" type="0" count="2" number_bit="00" mul_h="0,781" mul_l="0,003" subb="0" name="DMLLR"></DMLLR>
+			<TWATST number_data="55" type="0" count="1" number_bit="00" mul_h="1" mul_l="0,75" subb="48" name="TWATST"></TWATST>
+			<NEUTRDY number_data="56" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="NEUTRDY"></NEUTRDY>
+			<BVTPSRDY number_data="56" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="BVTPSRDY"></BVTPSRDY>
+			<O2S1RDY number_data="56" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="O2S1RDY"></O2S1RDY>
+			<O2S2RDY number_data="56" type="2" count="1" number_bit="$40" mul_h="1" mul_l="1" subb="0" name="O2S2RDY"></O2S2RDY>
+			<LEARNED number_data="57" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="LEARNED"></LEARNED>
+			<UNLOCK number_data="57" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="UNLOCK"></UNLOCK>
+			<BYPASS number_data="57" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="BYPASS"></BYPASS>
+			<BYPASSPR number_data="57" type="2" count="1" number_bit="$08" mul_h="1" mul_l="1" subb="0" name="BYPASSPR"></BYPASSPR>
+			<IMMOCOMERR number_data="57" type="2" count="1" number_bit="$10" mul_h="1" mul_l="1" subb="0" name="IMMOCOMERR"></IMMOCOMERR>
+			<QSTART number_data="57" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="QSTART"></QSTART>
+			<FPUMPREL number_data="58" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="FPUMPREL"></FPUMPREL>
+			<B_BREMS2 number_data="58" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="B_BREMS2"></B_BREMS2>
+			<B_KUPPL number_data="58" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="B_KUPPL"></B_KUPPL>
+			<AC number_data="58" type="2" count="1" number_bit="$08" mul_h="1" mul_l="1" subb="0" name="AC"></AC>
+			<ACC_REL number_data="58" type="2" count="1" number_bit="$10" mul_h="1" mul_l="1" subb="0" name="ACC_REL"></ACC_REL>
+			<ACC_HIPR number_data="58" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="ACC_HIPR"></ACC_HIPR>
+			<FAN_1 number_data="58" type="2" count="1" number_bit="$40" mul_h="1" mul_l="1" subb="0" name="FAN_1"></FAN_1>
+			<FAN_2 number_data="58" type="2" count="1" number_bit="$80" mul_h="1" mul_l="1" subb="0" name="FAN_2"></FAN_2>
+			<IDLE number_data="59" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="IDLE"></IDLE>
+			<FLOAD number_data="59" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="FLOAD"></FLOAD>
+			<PURGEON number_data="59" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="PURGEON"></PURGEON>
+			<O2S1_READY number_data="59" type="2" count="1" number_bit="$08" mul_h="1" mul_l="1" subb="0" name="O2S1_READY"></O2S1_READY>
+			<FSYS_O2S1 number_data="59" type="2" count="1" number_bit="$10" mul_h="1" mul_l="1" subb="0" name="FSYS_O2S1"></FSYS_O2S1>
+			<O2S2_READY number_data="59" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="O2S2_READY"></O2S2_READY>
+			<FSYS_O2S2 number_data="59" type="2" count="1" number_bit="$40" mul_h="1" mul_l="1" subb="0" name="FSYS_O2S2"></FSYS_O2S2>
+			<B_LRA number_data="59" type="2" count="1" number_bit="$80" mul_h="1" mul_l="1" subb="0" name="B_LRA"></B_LRA>
+			<FCUT number_data="60" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="FCUT"></FCUT>
+			<KR number_data="60" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="KR"></KR>
+			<B_KRDY number_data="60" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="B_KRDY"></B_KRDY>
+			<LUSTOP number_data="60" type="2" count="1" number_bit="$08" mul_h="1" mul_l="1" subb="0" name="LUSTOP"></LUSTOP>
+			<SWE number_data="60" type="2" count="1" number_bit="$10" mul_h="1" mul_l="1" subb="0" name="SWE"></SWE>
+			<B_BREMS1 number_data="60" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="B_BREMS1"></B_BREMS1>
+			<BLACKBOX number_data="60" type="2" count="1" number_bit="$40" mul_h="1" mul_l="1" subb="0" name="BLACKBOX"></BLACKBOX>
+			<MIL number_data="60" type="2" count="1" number_bit="$80" mul_h="1" mul_l="1" subb="0" name="MIL"></MIL>
+			<RUNTIME number_data="61" type="0" count="1" number_bit="00" mul_h="1" mul_l="6" subb="0" name="RUNTIME"></RUNTIME>
+			<CHKSUMFL number_data="63" type="0" count="1" number_bit="00" mul_h="1" mul_l="1" subb="0" name="CHKSUMFL"></CHKSUMFL>
+			<ABS number_data="65" type="2" count="1" number_bit="$01" mul_h="1" mul_l="1" subb="0" name="ABS"></ABS>
+			<ESP number_data="65" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="ESP"></ESP>
+			<AT number_data="65" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="AT"></AT>
+			<BCM number_data="65" type="2" count="1" number_bit="$08" mul_h="1" mul_l="1" subb="0" name="BCM"></BCM>
+			<CC number_data="65" type="2" count="1" number_bit="$10" mul_h="1" mul_l="1" subb="0" name="CC"></CC>
+			<SS number_data="65" type="2" count="1" number_bit="$20" mul_h="1" mul_l="1" subb="0" name="SS"></SS>
+			<LRN_FIN number_data="65" type="2" count="1" number_bit="$80" mul_h="1" mul_l="1" subb="0" name="LRN_FIN"></LRN_FIN>
+			<IAV_ST number_data="66" type="2" count="1" number_bit="$02" mul_h="1" mul_l="1" subb="0" name="IAV_ST"></IAV_ST>
+			<STRLY number_data="66" type="2" count="1" number_bit="$04" mul_h="1" mul_l="1" subb="0" name="STRLY"></STRLY>
+			<MAP_DCF number_data="68" type="0" count="2" number_bit="00" mul_h="16" mul_l="0,0625" subb="0" name="MAP_DCF"></MAP_DCF>
+			<MAP_SAM number_data="70" type="0" count="2" number_bit="00" mul_h="16" mul_l="0,0625" subb="0" name="MAP_SAM"></MAP_SAM>
+		</read_param_01>
+	</M86>
+</ecus>
